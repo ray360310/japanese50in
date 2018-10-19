@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="mp3_chapter01_num">
+		<item>jp02</item>
+		<item>jp03</item>
+		<item>jp04</item>
+		<item>jp05</item>
+		<item>jp06</item>
+		<item>jp07</item>
+		<item>jp08</item>
+		<item>jp09</item>
+		<item>jp10</item>
+		<item>jp11</item>
+		<item>jp12</item>
+		<item>jp13</item>
+		<item>jp14</item>
+		<item>jp15</item>
+		<item>jp16</item>
+		<item>jp17</item>
+		<item>jp18</item>
+		<item>jp19</item>
+		<item>jp20</item>
+		<item>jp21</item>
+	</string-array>
+
+	<string-array name="mp3_chapter02_num">
+		<item>jp22</item>
+		<item>jp23</item>
+		<item>jp24</item>
+		<item>jp25</item>
+		<item>jp26</item>
+	</string-array>
+
+	<string-array name="mp3_chapter03_num">
+		<item>jp27</item>
+		<item>jp28</item>
+		<item>jp29</item>
+		<item>jp30</item>
+	</string-array>
+
+	<string-array name="mp3_chapter04_num">
+		<item>jp31</item>
+		<item>jp32</item>
+		<item>jp33</item>
+		<item>jp34</item>
+	</string-array>
+
+	<string-array name="mp3_chapter05_num">
+		<item>jp35</item>
+		<item>jp36</item>
+		<item>jp37</item>
+		<item>jp38</item>
+	</string-array>
+
+	<string-array name="mp3_special_practice_01_num">
+		<item>jp39</item>
+		<item>jp40</item>
+		<item>jp41</item>
+		<item>jp42</item>
+		<item>jp43</item>
+		<item>jp44</item>
+	</string-array>
+
+	<string-array name="mp3_chapter06_num">
+		<item>jp45</item>
+		<item>jp46</item>
+		<item>jp47</item>
+		<item>jp48</item>
+		<item>jp49</item>
+		<item>jp50</item>
+		<item>jp51</item>
+		<item>jp52</item>
+		<item>jp53</item>
+		<item>jp54</item>
+		<item>jp55</item>
+		<item>jp56</item>
+		<item>jp57</item>
+		<item>jp58</item>
+		<item>jp59</item>
+		<item>jp60</item>
+		<item>jp61</item>
+		<item>jp62</item>
+		<item>jp63</item>
+		<item>jp64</item>
+		<item>jp65</item>
+		<item>jp66</item>
+		<item>jp67</item>
+		<item>jp68</item>
+	</string-array>
+
+	<string-array name="mp3_chapter07_num">
+		<item>jp69</item>
+		<item>jp70</item>
+		<item>jp71</item>
+		<item>jp72</item>
+	</string-array>
+
+	<string-array name="mp3_chapter08_num">
+		<item>jp73</item>
+		<item>jp74</item>
+	</string-array>
+
+	<string-array name="mp3_chapter09_num">
+		<item>jp75</item>
+		<item>jp76</item>
+	</string-array>
+
+	<string-array name="mp3_chapter10_num">
+		<item>jp77</item>
+		<item>jp78</item>
+		<item>jp79</item>
+	</string-array>
+
+	<string-array name="mp3_chapter11_num">
+		<item>jp80</item>
+		<item>jp81</item>
+		<item>jp82</item>
+		<item>jp83</item>
+	</string-array>
+
+	<string-array name="mp3_special_practice_02_num">
+		<item>jp84</item>
+		<item>jp85</item>
+		<item>jp86</item>
+		<item>jp87</item>
+		<item>jp88</item>
+	</string-array>
+
+</resources>

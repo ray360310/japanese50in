@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">Japanese 50in</string>
+
+    <string name="activity_main_toolbar_title">日語五十音</string>
+
+    <string name="content_title_txw">章節名稱</string>
+
+    <string name="mp3_play_title_txw">課程名稱</string>
+
+    <string-array name="list_nav_chapter">
+        <item>Chapter01</item>
+        <item>Chapter02</item>
+        <item>Chapter03</item>
+        <item>Chapter04</item>
+        <item>Chapter05</item>
+        <item>綜合練習(一)</item>
+        <item>Chapter06</item>
+        <item>Chapter07</item>
+        <item>Chapter08</item>
+        <item>Chapter09</item>
+        <item>Chapter10</item>
+        <item>Chapter11</item>
+        <item>綜合練習(二)</item>
+    </string-array>
+
+    <string-array name="list_mp3_name">
+        <item>Start</item>
+        <item>Chapter01 清音 第10頁</item>
+        <item>1-01 發音練習 第11頁</item>
+        <item>1-02 聽和寫 第15頁</item>
+        <item>1-03 聽和寫 第19頁</item>
+        <item>1-04 聽和寫 第23頁</item>
+        <item>1-05 連連看 第25頁</item>
+        <item>1-05 假名聽寫練習 第26頁</item>
+        <item>1-06 發音練習 第27頁</item>
+        <item>1-07 聽和寫 第31頁</item>
+
+        <item>1-08 聽和寫 第35頁</item>
+        <item>1-09 聽和寫 第39頁</item>
+        <item>1-10 連連看 第41頁</item>
+        <item>1-10 假名聽寫練習 第42頁</item>
+        <item>1-11 發音練習 第43頁</item>
+        <item>1-12 聽和寫 第47頁</item>
+        <item>1-13 聽和寫 第49頁</item>
+        <item>1-14 聽和寫 第53頁</item>
+        <item>1-15 聽和寫 第56頁</item>
+        <item>1-16 連連看 第58頁</item>
+
+        <item>1-16 假名聽寫練習 第59頁</item>
+        <item>Chapter02 濁音。半濁音 第60頁</item>
+        <item>2-01 發音練習 第61頁</item>
+        <item>2-02 聽和寫 第72頁</item>
+        <item>2-03 分辨相近假名 第73頁</item>
+        <item>2-03 分辨相近音 第73頁</item>
+        <item>Chapter03 促音 3-01 發音練習 第74頁</item>
+        <item>3-02 聽和寫 第74頁</item>
+        <item>3-03 分辨相近假名 第75頁</item>
+        <item>3-03 假名聽寫練習 第75頁</item>
+
+        <item>Chapter04 長音 4-01 發音練習 第76頁</item>
+        <item>4-02 聽和寫 第76頁</item>
+        <item>4-03 分辨相近假名 第77頁</item>
+        <item>4-03 假名聽寫練習 第77頁</item>
+        <item>Chapter05 柪音 第78頁</item>
+        <item>5-01 發音練習 第79頁</item>
+        <item>5-02 聽和寫 第79頁</item>
+        <item>5-03 分辨相近假名 第80頁</item>
+        <item>綜合練習(一) 家族 第82頁</item>
+        <item>綜合練習(一) 食物 第83頁</item>
+
+        <item>綜合練習(一) 數字 第84頁</item>
+        <item>綜合練習(一) 星座 第85頁</item>
+        <item>綜合練習(一) 打招呼 第86頁</item>
+        <item>綜合練習(一) 地名 第88頁</item>
+        <item>Chapter06 清音 第90頁</item>
+        <item>6-01 發音練習 第91頁</item>
+        <item>6-02 聽和寫 第93頁</item>
+        <item>6-03 發音練習 第94頁</item>
+        <item>6-04 聽和寫 第96頁</item>
+        <item>6-05 發音練習 第97頁</item>
+
+        <item>6-06 聽和寫 第99頁</item>
+        <item>6-07 發音練習 第100頁</item>
+        <item>6-08 聽和寫 第102頁</item>
+        <item>6-09 發音練習 第103頁</item>
+        <item>6-10 聽和寫 第105頁</item>
+        <item>6-11 片假名聽寫練習 第107頁</item>
+        <item>6-12 發音練習 第108頁</item>
+        <item>6-13 聽和寫 第110頁</item>
+        <item>6-14 發音練習 第111頁</item>
+        <item>6-15 聽和寫 第113頁</item>
+
+        <item>6-16 發音練習 第114頁</item>
+        <item>6-17 聽和寫 第115頁</item>
+        <item>6-18 發音練習 第116頁</item>
+        <item>6-19 聽和寫 第118頁</item>
+        <item>6-20 發音練習 第119頁</item>
+        <item>6-21 聽和寫 第120頁</item>
+        <item>6-22 片假名聽寫練習 第122頁</item>
+        <item>6-22 聽和寫 第123頁</item>
+        <item>Chapter07 濁音。半濁音 第126頁</item>
+        <item>7-01 發音練習 第127頁</item>
+
+        <item>7-02 聽和寫 第138頁</item>
+        <item>7-03 擬聲語、擬態語 第139頁</item>
+        <item>Chapter08 促音 8-01 發音練習 第140頁</item>
+        <item>8-02 聽和寫 第140頁</item>
+        <item>Chapter09 長音 9-01 發音練習 第141頁</item>
+        <item>9-02 聽和寫 第141頁</item>
+        <item>Chapter10 柪音 第142頁</item>
+        <item>10-01 發音練習 第143頁</item>
+        <item>10-02 聽和寫 第143頁</item>
+        <item>Chapter11 特殊音 第144頁</item>
+
+        <item>11-01 發音練習 第144頁</item>
+        <item>11-02 聽和寫 第145頁</item>
+        <item>11-03 假名聽寫練習 第146頁</item>
+        <item>綜合練習(二) 國名 第148頁</item>
+        <item>綜合練習(二) 菜單 第149頁</item>
+        <item>綜合練習(二) 家裡的物品 第150頁</item>
+        <item>綜合練習(二) 動物 第151頁</item>
+        <item>綜合練習(二) 運動 第152頁</item>
+
+    </string-array>
+
+</resources>

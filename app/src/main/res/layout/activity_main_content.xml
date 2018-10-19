@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:background="@android:color/white">
+
+    <TextView
+            android:text="@string/content_title_txw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/content_title_txw"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintHorizontal_bias="0.0" android:textColor="@android:color/black"
+            android:textSize="18sp"/>
+    <android.support.v7.widget.RecyclerView
+            android:layout_width="0dp"
+            android:layout_height="0dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/content_title_txw"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="16dp"
+            android:id="@+id/content_list_rcview"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/guideline"
+            android:visibility="visible" app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.0">
+    </android.support.v7.widget.RecyclerView>
+    <android.support.constraint.Guideline android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                          android:id="@+id/guideline"
+                                          android:orientation="horizontal"
+                                          app:layout_constraintGuide_percent="0.6"/>
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="@+id/guideline" android:id="@+id/content_mp3_clayout">
+
+        <TextView
+                android:text="@string/mp3_play_title_txw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/mp3_play_title_txw"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="16dp" android:textColor="@android:color/black" android:textSize="18sp"
+                android:layout_marginEnd="16dp"/>
+        <ImageButton
+                android:layout_width="75dp"
+                android:layout_height="75dp" app:srcCompat="@drawable/ic_play_previous_dark"
+                android:id="@+id/mp3_play_previous_imgbtn" android:background="@drawable/imgbtn_play_bg"
+                app:layout_constraintTop_toTopOf="@+id/mp3_play_pause_imgbtn"
+                app:layout_constraintBottom_toBottomOf="@+id/mp3_play_pause_imgbtn"
+                app:layout_constraintEnd_toStartOf="@+id/mp3_play_pause_imgbtn" android:layout_marginEnd="8dp"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"/>
+        <ImageButton
+                android:layout_width="75dp"
+                android:layout_height="75dp" app:srcCompat="@drawable/ic_play_dark"
+                android:id="@+id/mp3_play_pause_imgbtn" android:background="@drawable/imgbtn_play_bg"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/mp3_play_title_txw" android:layout_marginEnd="8dp"
+                app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/mp3_play_seekbar"/>
+        <ImageButton
+                android:layout_width="75dp"
+                android:layout_height="75dp" app:srcCompat="@drawable/ic_play_next_dark"
+                android:id="@+id/mp3_play_next_imgbtn" android:background="@drawable/imgbtn_play_bg"
+                app:layout_constraintTop_toTopOf="@+id/mp3_play_pause_imgbtn"
+                app:layout_constraintBottom_toBottomOf="@+id/mp3_play_pause_imgbtn"
+                app:layout_constraintStart_toEndOf="@+id/mp3_play_pause_imgbtn" android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"/>
+        <SeekBar
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" android:id="@+id/mp3_play_seekbar"
+                android:layout_marginBottom="32dp"
+                app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"/>
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

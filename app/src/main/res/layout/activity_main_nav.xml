@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:tag="@string/tag_menu">
+
+    <android.support.constraint.ConstraintLayout
+            android:id="@+id/nav_header_clayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/nav_ver80_guideline"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+                android:text="選單"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:textSize="30sp"
+                android:textColor="@android:color/white"/>
+    </android.support.constraint.ConstraintLayout>
+
+    <View
+            android:id="@+id/nav_header_border"
+            android:layout_width="0dp"
+            android:layout_height="0.1dp"
+            android:layout_below="@+id/nav_header_clayout"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@android:color/white"
+            android:visibility="visible"
+            app:layout_constraintEnd_toStartOf="@+id/nav_ver80_guideline"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nav_header_clayout"/>
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/nav_list_rcview"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="24dp"
+            app:layout_constraintBottom_toTopOf="@+id/nav_footer_border"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nav_header_border"
+            app:layout_constraintEnd_toStartOf="@+id/nav_ver80_guideline" android:layout_marginEnd="24dp"/>
+
+    <View
+            android:id="@+id/nav_footer_border"
+            android:layout_width="0dp"
+            android:layout_height="0.1dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="@android:color/white"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/nav_footer_clayout"
+            app:layout_constraintEnd_toStartOf="@+id/nav_ver80_guideline"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+    <android.support.constraint.ConstraintLayout
+            android:id="@+id/nav_footer_clayout"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/colorPrimaryDark"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/nav_ver80_guideline"
+            app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+                android:text="Author: https://github.com/ray360310"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nav_author_txw"
+                android:autoLink="web"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" android:textColor="@android:color/white"/>
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.Guideline
+            android:id="@+id/nav_ver60_guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.6"/>
+
+    <android.support.constraint.Guideline
+            android:id="@+id/nav_ver80_guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.8"/>
+
+</android.support.constraint.ConstraintLayout>
